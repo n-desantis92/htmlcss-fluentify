@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  background-color: rgb(211,211,211);
+}
+
+header {
+  background-color: rgb(12,50,90);
+  height: 300px;
+}
+
+.content {
+  background-color: green;
+  width: 90%;
+  height: 100%;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-block;
+  position: relative;
+}
+
+.menu {
+  font-size: 10px;
+  margin-left: 20px;
+}
+
+div.logo, div.menu {
+  float: left;
+}
+
+li {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 10px;
+}
