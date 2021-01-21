@@ -22,7 +22,6 @@ header {
 }
 
 .content {
-  background-color: green;
   width: 90%;
   height: 100%;
   margin: auto;
@@ -34,17 +33,39 @@ ul {
   position: relative;
 }
 
-.menu {
-  font-size: 10px;
+.menu-left, .menu-right {
+  font-size: 8px;
+  font-weight: 100;
   margin-left: 20px;
 }
 
-div.logo, div.menu {
+div.logo, div.menu-left {
   float: left;
+}
+
+div.menu-right {
+  float: right;
 }
 
 li {
   display: inline-block;
   margin-top: 20px;
   margin-left: 10px;
+}
+
+a {
+  text-decoration:none;
+  color: white;
+}
+
+#button {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.button-green {
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: lime;
 }
