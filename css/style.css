@@ -19,13 +19,20 @@ h1 {
 
 h2 {
   font-size: 2.5em;
+  margin-top: 2o%;
 }
 
+h3 {
+  font-size: 2.2em;
+  text-align: center;
+}
 h4 {
   text-align: center;
   color: lime;
 }
-
+hr {
+ border-color: rgba(100 100 100 0.3);
+}
 p {
   color: grey;
   margin-top: 10%;
@@ -179,6 +186,7 @@ main {
 /* /colonne */
 /* row 2 */
 .col {
+  position: relative;
   height: 100%;
   width: 50%;
   float: left;
@@ -188,17 +196,57 @@ main {
   background-size: 70%;
   background-position: center;
   background-repeat: no-repeat;
-}
-
-.col.p-plan {
-
+  height: 100%;
 }
 
 .al-test {
   width: 70%;
+  height: 100%;
 }
 
 .link {
   margin-top: 30px;
 }
 /* /row 2 */
+/* footer */
+.row-3 {
+  background-color: lightgrey;
+  height: 30vh;
+  width: 100%;
+}
+
+.text-centrato {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%)
+}
+
+.col .button-green {
+  display: inline-block;
+  font-size: 20px;
+  padding: 3% 3%;
+  margin-left: 2%
+}
+
+.row-3 .col-2 {
+  position: relative;
+  margin-top: 5%;
+  font-size: 20px;
+}
+select {
+  font-size: 20px;
+  padding: 1% 3%;
+  border-style: none;
+}
+
+.help {
+  position: absolute;
+  bottom: 68px;
+  right: 183px;
+  padding: 10px 10px;
+  background-color: lime;
+  border-radius: 5px;
+}
+
+/* /footer */
