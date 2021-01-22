@@ -213,7 +213,8 @@ main {
 .row-3 {
   background-color: lightgrey;
   height: 30vh;
-  width: 100%;
+  width: 90%;
+  margin: auto;
 }
 
 .text-centrato {
@@ -244,11 +245,11 @@ select {
 .help {
   font-size: 15px;
   position: absolute;
-  bottom: 68px;
-  right: 183px;
+  bottom: 61px;
+  right: 188px;
   padding: 10px 10px;
   background-color: lime;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 /* /footer */
