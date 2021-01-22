@@ -19,7 +19,7 @@ h1 {
 
 h2 {
   font-size: 2.5em;
-  margin-top: 2o%;
+  margin-top: 20%;
 }
 
 h3 {
@@ -94,16 +94,17 @@ nav {
 }
 
 .menu-left, .menu-right {
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 100px;
   margin-left: 20px;
 }
 
-div.logo, div.menu-left {
+div.logo, ul.menu-left {
   float: left;
 }
 
-div.menu-right {
+ul.menu-right {
+  width: 44%;
   float: right;
   text-align: right;
 }
@@ -115,7 +116,7 @@ div.menu-right {
 }
 
 .button-green {
-  font-size: 8px;
+  font-size: 12px;
   border-radius: 5px;
   padding: 5px 10px;
   background-color: lime;
@@ -224,7 +225,7 @@ main {
 
 .col .button-green {
   display: inline-block;
-  font-size: 20px;
+  font-size: 15px;
   padding: 3% 3%;
   margin-left: 2%
 }
@@ -241,6 +242,7 @@ select {
 }
 
 .help {
+  font-size: 15px;
   position: absolute;
   bottom: 68px;
   right: 183px;
