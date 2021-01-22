@@ -2,8 +2,42 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: roboto sans-serif;
 }
 
+/* tipo */
+h1 {
+  text-align: left;
+  color: white;
+  font-size: 3em;
+  width: 55%;
+  position: absolute;
+  bottom: 80px;
+  margin-bottom: 30px;
+}
+
+h4 {
+  text-align: center;
+  color: lime;
+}
+
+a {
+  text-decoration:none;
+  color: white;
+}
+
+li {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-block;
+  position: relative;
+}
+/* /tipo */
 
 .clearfix::after {
   content: "";
@@ -20,6 +54,10 @@
 header {
   background-color: rgb(12,50,90);
   height: 300px;
+  background-image: url(../img/background-header.png);
+  background-size: 55%;
+  background-repeat: no-repeat;
+  background-position: 110% 100%;
 }
 
 .content {
@@ -38,15 +76,9 @@ nav {
   height: 38px;
 }
 
-ul {
-  list-style-type: none;
-  display: inline-block;
-  position: relative;
-}
-
 .menu-left, .menu-right {
   font-size: 8px;
-  font-weight: 100;
+  font-weight: 100px;
   margin-left: 20px;
 }
 
@@ -56,17 +88,7 @@ div.logo, div.menu-left {
 
 div.menu-right {
   float: right;
-}
-
-li {
-  display: inline-block;
-  margin-top: 20px;
-  margin-left: 10px;
-}
-
-a {
-  text-decoration:none;
-  color: white;
+  text-align: right;
 }
 
 #button {
@@ -76,6 +98,7 @@ a {
 }
 
 .button-green {
+  font-size: 8px;
   border-radius: 5px;
   padding: 5px 10px;
   background-color: lime;
@@ -83,25 +106,58 @@ a {
 
 section.banner {
   position: relative;
-  height: calc(100% - 38px);
-
-}
-
-.banner img {
-  width: 80%;
   height: 100%;
-  object-fit:cover;
-  position: absolute;
-  bottom: 0;
-  right: 0;
 }
 
-
-h1 {
-  text-align: left;
-  color: white;
-  font-size: 2em;
-  width: 55%;
+.pulsante {
   position: absolute;
-  bottom: 80px;
+  bottom: 50px;
+}
+
+.consiglio {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.consiglio p {
+  padding-top: 10px;
+  color:grey;
+  margin-bottom: 30px;
+}
+
+main {
+  background-color: yellow;
+  width: 100%;
+}
+
+.row {
+  background-color: green;
+  width: 100%;
+  height: 100vh;
+}
+
+.row .colonna {
+  border: 1px solid black;
+  width: calc(100% / 3);
+  height: 100%;
+  float: left;
+}
+
+.colonna img {
+  width: 80%;
+  height: 30%;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.small-line {
+  width: 20%;
+  margin: auto;
+}
+
+.small-line p {
+  width: 100%;
+  height: 30px;
+  border-bottom: 1px solid grey;
+  text-align: center;
 }
